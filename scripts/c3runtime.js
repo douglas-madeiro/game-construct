@@ -1449,6 +1449,14 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(50, 425);
 		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0(15, 20);
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0(50, 430);
+		},
 		() => "direita",
 		() => "frente",
 		() => "esquerda",
