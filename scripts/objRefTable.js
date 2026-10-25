@@ -26,9 +26,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Exps.random,
 		C3.Plugins.System.Acts.CreateObject,
-		C3.Plugins.Keyboard.Cnds.OnKey,
-		C3.Plugins.Sprite.Acts.SetAnim,
-		C3.Plugins.Keyboard.Cnds.OnKeyReleased,
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Acts.AddVar,
@@ -39,11 +36,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetY,
 		C3.Plugins.Sprite.Exps.Y,
 		C3.Plugins.System.Exps.dt,
-		C3.Plugins.video.Cnds.HasEnded,
-		C3.Plugins.video.Acts.Play,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Behaviors.Platform.Acts.SimulateControl,
+		C3.Plugins.Sprite.Acts.SetAnim,
 		C3.Plugins.TiledBg.Acts.SetImageOffsetY,
 		C3.Plugins.TiledBg.Exps.ImageOffsetY
 	];
